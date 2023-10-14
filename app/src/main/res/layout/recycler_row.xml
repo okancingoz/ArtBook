@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="12dp"
+        android:orientation="horizontal"
+        android:background="@drawable/rounded_corner"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/recyclerRowItem"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:layout_gravity="center_vertical"
+            android:textColor="#2962FF"
+            android:text="test"
+            android:textSize="20sp"
+            />
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corner"
+            android:text="X"
+            android:backgroundTint="#B71C1C"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+</LinearLayout>
